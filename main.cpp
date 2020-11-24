@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <algorithm>
-#define VERT_NUM  82168
+#define VERT_NUM  5
 
 using namespace std;
 vector<int> cur_best_clique;
