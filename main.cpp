@@ -97,7 +97,9 @@ int main(int argc , char *argv[])
     fstream out;
     out.open("clique.txt" , ios::out);
     sort(cur_best_clique.begin() , cur_best_clique.end());
-
+    /*
+    test1
+    */
     for(int v : cur_best_clique){
         out<<v<<endl;
     }
